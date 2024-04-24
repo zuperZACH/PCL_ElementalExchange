@@ -320,11 +320,11 @@ VioletGymGuideText:
 	para "it can take a"
 	line "lot of hits."
 	
-	para "Rock and electric"
+	para "ROCK and ELECTRIC"
 	line "moves will hurt it"
 	
-	para "but watch out for"
-	line "MUD-SLAP!"
+	para "but NORMAL doesn't"
+	line "seem to affect it!"
 	
 	para "If you want more"
 	line "help, check out"

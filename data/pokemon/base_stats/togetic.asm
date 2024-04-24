@@ -3,11 +3,11 @@
 	db  85, 50,  85,  40,  80, 105
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, FLYING ; type
+	db FAIRY, FLYING ; type
 	db 75 ; catch rate
 	db 114 ; base exp
 	db NO_ITEM, NO_ITEM ; items
-	db GENDER_F12_5 ; gender ratio
+	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 2 ; step cycles to hatch
 	db 5 ; unknown 2

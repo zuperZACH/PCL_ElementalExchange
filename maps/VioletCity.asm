@@ -218,14 +218,15 @@ VioletCityLassText:
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "I learned this"
+	line "from the ACADEMY."
 
-	para "If you head to"
-	line "the ACADEMY,"
+	para "some #MON have"
+	line "different types"
+	cont "than they used to!"
 
-	para "you might learn"
-	line "something new!"
+	para "Check your POKEDEX"
+	line "to see!"
 	done
 
 VioletCityGrampsText:

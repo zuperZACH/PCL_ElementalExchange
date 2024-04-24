@@ -402,9 +402,10 @@ GoldenrodGymGuideText:
 	line "to a NORMAL-type"
 	cont "#MON leader."
 
-	para "Be cautious of"
-	line "her cute team."
-	
+	para "But recently she"
+	line "took a liking to"
+	cont "FAIRIES to!"
+
 	para "Her teddy bear"
 	line "might look nice,"
 	

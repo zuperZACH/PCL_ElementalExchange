@@ -253,10 +253,10 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_FairyWind
+	dw BattleAnim_DrainKiss
+	dw BattleAnim_Moonblast
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_252
-	dw BattleAnim_253
-	dw BattleAnim_254
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
@@ -285,9 +285,6 @@ BattleAnimations::
 	assert_table_length NUM_BATTLE_ANIMS + 1
 
 BattleAnim_0:
-BattleAnim_252:
-BattleAnim_253:
-BattleAnim_254:
 BattleAnim_MirrorMove:
 	anim_ret
 
@@ -4825,4 +4822,66 @@ BattleAnim_ShowMon_1:
 	anim_wait 4
 	anim_incobj 1
 	anim_wait 1
+	anim_ret
+
+BattleAnim_FairyWind:
+	anim_1gfx ANIM_GFX_SPEED
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
+	anim_battlergfx_1row
+	anim_sound 0, 0, SFX_PSYCHIC
+.loop
+	anim_wait 8
+	anim_obj ANIM_OBJ_SHOOTING_SPARKLE, 64, 88, $4
+	anim_wait 8
+	anim_obj ANIM_OBJ_SHOOTING_SPARKLE, 64, 80, $4
+	anim_wait 8
+	anim_obj ANIM_OBJ_SHOOTING_SPARKLE, 64, 96, $4
+	anim_wait 8
+	anim_loop 2, .loop
+	anim_wait 16
+	anim_bgeffect ANIM_BG_BATTLEROBJ_2ROW, $0, BG_EFFECT_USER, $0
+	anim_wait 6
+	anim_bgeffect ANIM_BG_NIGHT_SHADE, $0, BG_EFFECT_TARGET, $8
+	anim_wait 64
+	anim_incbgeffect ANIM_BG_NIGHT_SHADE
+	anim_bgeffect ANIM_BG_SHOW_MON, $0, BG_EFFECT_USER, $0
+	anim_wait 4
+	anim_incobj 7
+	anim_wait 1
+	anim_ret
+
+BattleAnim_DrainKiss:
+	anim_2gfx ANIM_GFX_OBJECTS, ANIM_GFX_ANGELS
+	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_obj ANIM_OBJ_SWEET_KISS, 96, 40, $0
+	anim_sound 0, 1, SFX_SWEET_KISS
+	anim_wait 32
+	anim_sound 0, 1, SFX_SWEET_KISS_2
+	anim_obj ANIM_OBJ_HEART, 120, 40, $0
+	anim_wait 40
+	anim_1gfx ANIM_GFX_BUBBLE
+	anim_sound 6, 3, SFX_WATER_GUN
+	anim_call BattleAnimSub_Drain
+	anim_wait 128
+	anim_wait 48
+	anim_ret
+
+BattleAnim_Moonblast:
+	anim_1gfx ANIM_GFX_SHINE
+	anim_bgp $1b
+	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 0, 40, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 16, 56, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 32, 72, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 48, 88, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 64, 104, $0
+	anim_wait 1
+	anim_sound 0, 0, SFX_MOONLIGHT
+	anim_wait 63
+	anim_call BattleAnimSub_Glimmer
+	anim_1gfx ANIM_GFX_BEAM
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_call BattleAnimSub_Beam
+	anim_wait 48
 	anim_ret

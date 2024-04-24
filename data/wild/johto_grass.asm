@@ -319,7 +319,7 @@ JohtoGrassWildMons:
 	db 16, MISDREAVUS
 	db 16, KOFFING
 	db 18, MAGMAR
-	db 18, MAGMAR
+	db  5, CHARMANDER
 	; day
 	db 18, ZUBAT
 	db 17, KOFFING
@@ -327,7 +327,7 @@ JohtoGrassWildMons:
 	db 16, MAGMAR
 	db 16, KOFFING
 	db 18, MISDREAVUS
-	db 17, MISDREAVUS
+	db  5, CHARMANDER
 	; nite
 	db 18, MISDREAVUS
 	db 17, ZUBAT
@@ -335,7 +335,7 @@ JohtoGrassWildMons:
 	db 16, KOFFING
 	db 16, KOFFING
 	db 18, MAGMAR
-	db 18, MAGMAR
+	db  5, CHARMANDER
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_PARK
@@ -571,7 +571,7 @@ JohtoGrassWildMons:
 	db 12, ODDISH
 	db 13, PARAS
 	db 9,  METAPOD
-	db 9,  METAPOD
+	db 5,  BULBASAUR
 	; day
 	db 8,  CATERPIE
 	db 8,  WEEDLE
@@ -579,7 +579,7 @@ JohtoGrassWildMons:
 	db 12, ODDISH
 	db 13, PARAS
 	db 9,  KAKUNA
-	db 9,  KAKUNA
+	db 5,  BULBASAUR
 	; nite
 	db 12, ODDISH
 	db 12, VENONAT
@@ -587,7 +587,7 @@ JohtoGrassWildMons:
 	db 12, HOOTHOOT
 	db 13, ODDISH
 	db 13, PSYDUCK
-	db 13, PSYDUCK
+	db 5,  BULBASAUR
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1383,7 +1383,7 @@ JohtoGrassWildMons:
 	db 13, GRIMER
 	db 14, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db  5, SQUIRTLE
 	; day
 	db 14, MANKEY
 	db 13, ABRA
@@ -1391,7 +1391,7 @@ JohtoGrassWildMons:
 	db 13, GRIMER
 	db 14, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db  5, SQUIRTLE
 	; nite
 	db 14, DROWZEE
 	db 13, GRIMER
@@ -1399,7 +1399,7 @@ JohtoGrassWildMons:
 	db 13, SNUBBULL
 	db 14, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db  5, SQUIRTLE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_35
