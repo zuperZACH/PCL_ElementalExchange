@@ -860,7 +860,7 @@ PrimeapeEvosAttacks:
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
 	db 28, RAGE
-	db 33, SEISMIC_TOSS
+	db 33, FAINT_ATTACK
 	db 39, CROSS_CHOP
 	db 45, SCREECH
 	db 51, THRASH
@@ -1308,7 +1308,7 @@ SeelEvosAttacks:
 	db 5, WATER_GUN
 	db 16, AURORA_BEAM
 	db 21, REST
-	db 25, BUBBLEBEAM
+	db 25, DOUBLESLAP
 	db 32, TAKE_DOWN
 	db 37, ICE_BEAM
 	db 48, SAFEGUARD
@@ -1323,10 +1323,11 @@ DewgongEvosAttacks:
 	db 5, GROWL
 	db 16, AURORA_BEAM
 	db 21, REST
-	db 25, BUBBLEBEAM
+	db 25, DOUBLESLAP
 	db 32, TAKE_DOWN
 	db 40, ICE_BEAM
-	db 50, SAFEGUARD
+	db 46, SAFEGUARD
+	db 54, MOONBLAST
 	db 60, BLIZZARD
 	db 0 ; no more level-up moves
 
@@ -2550,11 +2551,10 @@ LedianEvosAttacks:
 	db 18, LIGHT_SCREEN
 	db 18, REFLECT
 	db 24, SAFEGUARD
-	db 26, BATON_PASS
-	db 31, AGILITY
-	db 36, GIGA_DRAIN
-	db 39, MACH_PUNCH
-	db 42, SWIFT
+	db 26, MACH_PUNCH
+	db 31, BATON_PASS
+	db 36, AGILITY
+	db 39, GIGA_DRAIN
 	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -2987,7 +2987,7 @@ QuagsireEvosAttacks:
 	db 23, AMNESIA
 	db 31, EARTHQUAKE
 	db 47, RAIN_DANCE
-	db 59, MIST
+	db 52, BODY_SLAM
 	db 59, HAZE
 	db 0 ; no more level-up moves
 
