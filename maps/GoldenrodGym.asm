@@ -404,7 +404,7 @@ GoldenrodGymGuideText:
 
 	para "But recently she"
 	line "took a liking to"
-	cont "FAIRIES to!"
+	cont "FAIRIES too!"
 
 	para "Her teddy bear"
 	line "might look nice,"

@@ -193,17 +193,17 @@ MetapodEvosAttacks:
 ButterfreeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONFUSION
-	db 10, LEECH_LIFE
-	db 12, POISONPOWDER
+	db 10, GUST
+	db 11, POISONPOWDER
+	db 12, LEECH_LIFE
 	db 13, STUN_SPORE
 	db 14, CONFUSION
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
-	db 23, GUST
-	db 28, WHIRLWIND
-	db 34, PSYBEAM
-	db 40, SAFEGUARD
-	db 44, PSYCHIC_M
+	db 23, WHIRLWIND
+	db 28, PSYBEAM
+	db 34, SAFEGUARD
+	db 39, PSYCHIC_M
 	db 50, DREAM_EATER
 	db 0 ; no more level-up moves
 
@@ -2672,14 +2672,14 @@ TogepiEvosAttacks:
 	db 1, GROWL
 	db 1, CHARM
 	db 5, METRONOME
-	db 11, RETURN
-	db 15, FAIRY_WIND
-	db 18, SWEET_KISS
-	db 25, ENCORE
-	db 29, DRAIN_KISS
-	db 31, SAFEGUARD
-	db 38, DOUBLE_EDGE
-	db 43, TRI_ATTACK
+	db 9, RETURN
+	db 13, FAIRY_WIND
+	db 16, SWEET_KISS
+	db 20, ENCORE
+	db 25, DRAIN_KISS
+	db 30, SAFEGUARD
+	db 34, DOUBLE_EDGE
+	db 39, TRI_ATTACK
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
@@ -2688,14 +2688,15 @@ TogeticEvosAttacks:
 	db 1, CHARM
 	db 1, FAIRY_WIND
 	db 5, METRONOME
-	db 18, SWEET_KISS
-	db 25, ENCORE
-	db 27, WING_ATTACK
-	db 29, DRAIN_KISS
-	db 31, SAFEGUARD
-	db 38, DOUBLE_EDGE
-	db 43, TRI_ATTACK
-	db 48, MOONBLAST
+	db 13, FAIRY_WIND
+	db 16, SWEET_KISS
+	db 20, ENCORE
+	db 23, WING_ATTACK
+	db 25, DRAIN_KISS
+	db 30, SAFEGUARD
+	db 34, DOUBLE_EDGE
+	db 39, TRI_ATTACK
+	db 43, MOONBLAST
 	db 0 ; no more level-up moves
 
 NatuEvosAttacks:

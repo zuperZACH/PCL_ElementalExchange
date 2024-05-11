@@ -221,7 +221,7 @@ VioletCitySuperNerdText:
 	text "I learned this"
 	line "from the ACADEMY."
 
-	para "some #MON have"
+	para "Some #MON have"
 	line "different types"
 	cont "than they used to!"
 
