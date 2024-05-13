@@ -713,4 +713,7 @@ KRIS EQU __trainer_class__
 	trainerclass PKMNTRAINERF
 	const WEEBRA
 
+	trainerclass BLUE_FINAL
+	const BLUE2
+
 NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

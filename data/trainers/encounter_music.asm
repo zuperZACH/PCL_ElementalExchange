@@ -74,4 +74,5 @@ TrainerEncounterMusic::
 	db MUSIC_ROCKET_ENCOUNTER      ; boss
 	db MUSIC_ROCKET_ENCOUNTER      ; archer
 	db MUSIC_HIKER_ENCOUNTER       ; pkmntrainerf
+	db MUSIC_HIKER_ENCOUNTER       ; bluefinal
 	assert_table_length NUM_TRAINER_CLASSES + 1

@@ -28,6 +28,7 @@ MaleTrainers:
 	db SCIENTIST
 	db BOSS
 	db ARCHER
+	db BLUE_FINAL
 .End
 
 FemaleTrainers:

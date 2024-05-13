@@ -446,10 +446,10 @@ BrunoGroup:
 			dw $FE01, $FE01, $FE01, $FE01, $FE01 ; hp, atk, def, spd, spc
 			db QUICK_CLAW
 			db CRUNCH, EARTHQUAKE, SWAGGER, ROCK_SLIDE
-		db 68, BLASTOISE
+		db 68, HITMONCHAN
 			dw $FE01, $FE01, $FE01, $FE01, $FE01 ; hp, atk, def, spd, spc
-			db GOLD_BERRY
-			db SURF, SPIKE_CANNON, ROCK_SMASH, ICY_WIND
+			db BLACKBELT_I
+			db CURSE, MACH_PUNCH, COUNTER, DIZZY_PUNCH
 		db 67, HERACROSS
 			dw $BE80, $BE80, $BE80, $BE80, $BE80 ; hp, atk, def, spd, spc
 			db SILVERPOWDER
@@ -536,7 +536,7 @@ KogaGroup:
 			db GLARE, CRUNCH, SUBSTITUTE, DOUBLE_TEAM
 		db 67, GLIGAR
 			dw $BE80, $BE80, $BE80, $BE80, $BE80 ; hp, atk, def, spd, spc
-			db BLACKBELT_I
+			db SOFT_SAND
 			db EARTHQUAKE, IRON_TAIL, DOUBLE_TEAM, FAINT_ATTACK
 		db 68, CROBAT
 			dw $7F00, $7F00, $7F00, $7F00, $7F00 ; hp, atk, def, spd, spc
@@ -4032,4 +4032,33 @@ PKMNTrainerFGroup:
 				db $dc, PERFECT_DV ; atk|def, spd|spc
 				db BERSERK_GENE
 				db TRIPLE_KICK, THIEF, HIDDEN_POWER, DIG
+	db -1 ; end
+
+BlueFinalGroup:
+	; BLUE_FINAL (1)
+	db "BLUE@", TRAINERTYPE_HAPPINESS | TRAINERTYPE_ITEM_MOVES
+		db 73, PIDGEOT
+			db 255
+			db LEFTOVERS
+			db FLY, SKY_ATTACK, EXTREMESPEED, DOUBLE_TEAM
+		db 73, ALAKAZAM
+			db 255
+			db FOCUS_BAND
+			db PSYCHIC_M, REFLECT, SHADOW_BALL, RECOVER
+		db 73, NINETALES
+			db 255
+			db MINT_BERRY
+			db FLAMETHROWER, SHADOW_BALL, HYPNOSIS, REST
+		db 73, SCIZOR
+			db 255
+			db SCOPE_LENS
+			db AGILITY, CUT, METAL_CLAW, BATON_PASS
+		db 74, BLASTOISE
+			db 255
+			db MYSTIC_WATER
+			db ICY_WIND, SURF, IRON_TAIL, BODY_SLAM
+		db 75, UMBREON
+			db 255
+			db GOLD_BERRY
+			db CURSE, MOONLIGHT, FAINT_ATTACK, RETURN
 	db -1 ; end

@@ -73,4 +73,5 @@ TrainerPicPointers::
 	dba_pic BossPic
 	dba_pic ArcherPic
 	dba_pic PkmnTrainerFPic
+	dba_pic BlueFinalPic
 	assert_table_length NUM_TRAINER_CLASSES

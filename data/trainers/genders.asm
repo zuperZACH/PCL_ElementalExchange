@@ -73,4 +73,5 @@ BTTrainerClassGenders:
 	db MALE   ; BOSS
 	db MALE   ; ARCHER
 	db FEMALE ; PKMNTRAINERF
+	db MALE   ; BLUEFINAL
 	assert_table_length NUM_TRAINER_CLASSES

@@ -71,4 +71,5 @@ BTTrainerClassSprites:
 	db SPRITE_ROCKET
 	db SPRITE_ARCHER
 	db SPRITE_KRIS
+	db SPRITE_BLUE
 	assert_table_length NUM_TRAINER_CLASSES

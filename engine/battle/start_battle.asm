@@ -93,6 +93,10 @@ PlayBattleMusic:
 	cp RED
 	jr z, .done
 
+	ld de, MUSIC_BLUE_BATTLE
+	cp BLUE_FINAL
+	jr z, .done
+
 	; They should have included EXECUTIVEM, EXECUTIVEF, and SCIENTIST too...
 	ld de, MUSIC_ROCKET_BATTLE
 	cp GRUNTM
