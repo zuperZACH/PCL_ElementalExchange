@@ -628,10 +628,10 @@ HOF_AnimatePlayerPic:
 	db "PLAY TIME@"
 
 .crystal_legacy_1:
-	db "Crystal@"
+	db "Legacy@"
 
 .crystal_legacy_2:
-	db "Legacy@"
+	db "Element@"
 
 .crystal_legacy_3:
 	db "Hard@"
