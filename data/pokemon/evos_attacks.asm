@@ -2239,7 +2239,8 @@ DratiniEvosAttacks:
 	db 15, SLAM
 	db 22, DRAGON_RAGE
 	db 29, TWISTER
-	db 36, AGILITY
+	db 34, AGILITY
+	db 38, DOUBLE_EDGE
 	db 43, SAFEGUARD
 	db 45, OUTRAGE
 	db 57, HYPER_BEAM
@@ -2256,7 +2257,8 @@ DragonairEvosAttacks:
 	db 15, SLAM
 	db 26, DRAGON_RAGE
 	db 29, TWISTER
-	db 38, AGILITY
+	db 34, AGILITY
+	db 39, DOUBLE_EDGE
 	db 47, SAFEGUARD
 	db 50, OUTRAGE
 	db 65, HYPER_BEAM
@@ -3413,6 +3415,15 @@ OctilleryEvosAttacks:
 DelibirdEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PRESENT
+	db 40, BARRAGE
+	db 43, SPIKES
+	db 45, SUNNY_DAY
+	db 45, RAIN_DANCE
+	db 45, SANDSTORM
+	db 48, SLAM
+	db 50, EGG_BOMB
+	db 52, DRILL_PECK
+	db 55, BLIZZARD
 	db 0 ; no more level-up moves
 
 MantineEvosAttacks:
