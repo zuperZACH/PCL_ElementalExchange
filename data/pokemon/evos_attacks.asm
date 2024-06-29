@@ -333,7 +333,7 @@ FearowEvosAttacks:
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
-	db EVOLVE_LEVEL, 22, ARBOK
+	db EVOLVE_LEVEL, 25, ARBOK
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
@@ -1488,12 +1488,14 @@ KrabbyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 5, LEER
-	db 12, VICEGRIP
+	db 12, BUBBLEBEAM
 	db 16, HARDEN
 	db 23, STOMP
-	db 27, GUILLOTINE
+	db 27, CUT
 	db 34, PROTECT
 	db 40, CRABHAMMER
+	db 42, GUILLOTINE
+	db 45, VICEGRIP
 	db 0 ; no more level-up moves
 
 KinglerEvosAttacks:
@@ -1502,15 +1504,15 @@ KinglerEvosAttacks:
 	db 1, LEER
 	db 1, VICEGRIP
 	db 5, LEER
-	db 12, VICEGRIP
+	db 12, BUBBLEBEAM
 	db 16, HARDEN
 	db 23, STOMP
-	db 27, CRABHAMMER
+	db 27, CUT
 	db 28, METAL_CLAW
 	db 37, PROTECT
-	db 44, GUILLOTINE
-	db 49, CRABHAMMER
-	db 56, EARTHQUAKE
+	db 42, GUILLOTINE
+	db 46, CRABHAMMER
+	db 49, VICEGRIP
 	db 0 ; no more level-up moves
 
 VoltorbEvosAttacks:
@@ -1942,12 +1944,12 @@ MagmarEvosAttacks:
 
 PinsirEvosAttacks:
     db 0 ; no more evolutions
-    db 1, VICEGRIP
+    db 1, QUICK_ATTACK
     db 7, FOCUS_ENERGY
     db 13, BIND
     db 19, SEISMIC_TOSS
-    db 25, TWINEEDLE
-    db 27, HARDEN
+    db 25, HARDEN
+    db 27, VICEGRIP
     db 31, GUILLOTINE
     db 37, SUBMISSION
     db 43, SWORDS_DANCE
@@ -2504,7 +2506,6 @@ HoothootEvosAttacks:
 	db 32, MIRROR_COAT
 	db 36, TAKE_DOWN
 	db 40, PSYCHIC_M
-	db 44, SHADOW_BALL
 	db 47, DREAM_EATER
 	db 50, FUTURE_SIGHT
 	db 0 ; no more level-up moves
@@ -2524,7 +2525,8 @@ NoctowlEvosAttacks:
 	db 32, MIRROR_COAT
 	db 36, TAKE_DOWN
 	db 40, PSYCHIC_M
-	db 45, DREAM_EATER
+	db 44, SHADOW_BALL
+	db 47, DREAM_EATER
 	db 50, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
@@ -3546,7 +3548,7 @@ StantlerEvosAttacks:
 	db 13, STOMP
 	db 15, HYPNOSIS
 	db 18, CONFUSE_RAY
-	db 23, PURSUIT
+	db 25, PURSUIT
 	db 28, TAKE_DOWN
 	db 33, REFLECT
 	db 37, LIGHT_SCREEN
