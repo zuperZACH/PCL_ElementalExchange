@@ -1,17 +1,11 @@
-# Pokémon Crystal Legacy
+# Pokémon Crystal Legacy: Elemental Exchange!
 
-This is a Pokemon Rom Hack made by [TheSmithPlays](https://www.youtube.com/@TheSmithPlays) based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal) with the intended purpose of fixing Pokemon Crystal into a more polished, balanced and overall engaging Crystal experience. Generation 2 is one of the most beloved sets of games in the franchise. It introduced tons of mechanics to the game that ended up becoming mainstays within the franchise even now. It also had fan favorite Pokemon, a diverse region, deep lore, nonlinearity, and an entire separate region as its postgame which allowed the player to rematch characters from Generation 1. This created an intoxicating and memorable experience that is still remembered by fans today. Unfortunately, it seems that for every good decision Gen 2 saw, there was a mistake made too, and this is why it sees a lot of criticism. Most often, players critique Gen 2 for failing in its representation of its own region’s Pokemon, its inconsistent level curve and a lackluster postgame. Furthermore, terrible learnsets inhibit the vast majority of Pokemon and questionable design choices make diverse party building incredibly difficult. It’s also been criticized for having a poorly written villainous group storyline with no enjoyable payoff. Ultimately, these and many other small features lead to this trio of games feeling incredibly underbaked, much to the dismay of its fans. Feeling as if it could be so much more, TSP (TheSmithPlays) set out to fix this game, and to turn it into the best possible version of itself, while still retaining the iconic Pokemon Crystal feel that fans have come to love. 
-
-Fixes and/or adjustments in this rom hack will include the following: moves, learnsets for Pokemon, wild Pokemon locations, the Team Rocket storyline, the rival’s team & their storyline, teams on both normal trainers, Gym Leaders, Elite Four, and other bosses. In addition it comes with many quality of life features that weren’t possible or weren’t considered when the games first came out.
-
-Huge thanks to TSP for leading the project, Jaashouh the admin of the discord server, Craig the programmer helping Smith (TSP), Weebra the Editor for SmithPlays Pokemon, The mod team Regi, Aero, Daily, Zach, and the Testers for the game, Tiberius, Disq, Sable, Niftimo, Tavros, Karlos, Reader Dragon, and Half1sch. Most of all Thanks to all of the fans who are supporting the project through the video series, the discord, and youtube community.
-
-We would also like to credit & thank Katt, Chamber, Soloo993, Blue Emerald, Lake, Neslug, Tom Wang, Seasick, & Pikachu25 for the several amazing custom sprites used in the hack. Nayru62 for their help involving the Pokedex & Pokemon pages. Rangi42, Idain, DamienDoury, Sylvie, aaaaaa123456789, SonicRay100, Edtv-thevoid, coco-bandicoot, MajorAgnostic, KDLPro, Nick-PC, XaeroChill, & NobodySociety for their incredibly helpful tutorials for Pokecrystal. Finally, a massive shoutout to everyone involved in [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal) as this project wouldn’t have even been able to get off the ground without them!
-
+A fork of Crystal Legacy. All changes from Crystal Legacy included, but with a little extra.
+Several pokemon now have new type combinations! Try out these changed pokemon for a new way to play Crystal Legacy!
 
 ## A complete list of features can be found here:
-https://docs.google.com/document/d/1nFzUWtrQm85oQlPp_cxL-b2-WB2Igs9E1PmJQ23SQwQ/edit#heading=h.p6q34xz4t90h
-
+Base Game: https://docs.google.com/document/d/1nFzUWtrQm85oQlPp_cxL-b2-WB2Igs9E1PmJQ23SQwQ/edit#heading=h.p6q34xz4t90h
+EE changes: https://docs.google.com/document/d/1rLm0Dk2WxGAY95BhYXPvLtbkRnAn7d9bvz4yHYKWekE/edit
 
 ## Discussion and Community
 * YouTube: https://www.youtube.com/@smithplayspokemon
